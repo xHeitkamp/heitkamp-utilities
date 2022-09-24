@@ -15,7 +15,7 @@ const divide2Numbers = (a, b) => {
 };
 
 const werIstBabo = () => {
-    return `xHeitkamp ist Babo!`;
+    return `xHeitkamp ist Babo!!!`;
 };
 
 module.exports = { add2Numbers, subtract2Numbers, multiply2Numbers, divide2Numbers, werIstBabo };
