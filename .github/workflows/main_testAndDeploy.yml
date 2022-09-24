@@ -21,6 +21,6 @@ jobs:
       - name: Run Unit tests
         run: npm test
       - name: Publish to NPM
-        run: npm publish --access public
+        run: npm publish
         env:
-          token: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
