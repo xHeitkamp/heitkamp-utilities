@@ -1,5 +1,5 @@
 {
-  "name": "heitkamp-utilities",
+  "name": "@heitkamp/heitkamp-utilities",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
